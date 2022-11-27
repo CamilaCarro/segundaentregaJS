@@ -39,57 +39,46 @@
         
     
     <main class="main">
-        <div class="portada">
-            <button type="button" class="btn btn-dark">SHOP ONLINE</button>
+      <div class="portada">
+          <button type="button" class="btn btn-dark">SHOP ONLINE</button>
+      </div>
+      <section class="section-menu">
+        <div class="section-p">
+          <p class="nuevos_ingresos">NUEVOS INGRESOS</p>
         </div>
+        <div id="divProductos" class="row">
+        </div>
+        <button id="fin" type="button" class="btn btn-dark">FINALIZAR COMPRA</button>
+      </section>
         
-        <section class="section-menu">
-            <div class="section-p">
-                <p>NUEVOS INGRESOS</p>
-            </div>
-            <div class="productos" id="listadeproductos">
-                <div class="articulo">
-                    <img class="articulo-imagen" src="./imagenes/remera.jpeg" alt="remera">
-                    <p>Remera Flor</p>
-                    <p>$350</p>
-                    <button type="button" class="btn btn-dark">Añardir a carrito</button>
-                </div>
-                <div class="articulo">
-                    <img class="articulo-imagen" src="./imagenes/musculosa.jpeg" alt="musculosa">
-                    <p class="articulo-parrafo">Musculosa Bella</p>
-                    <p>$450</p>
-                    <button type="button" class="btn btn-dark">Añardir a carrito</button>
-                </div>
-                <div class="articulo">
-                    <img class="articulo-imagen"src="./imagenes/jean.jpeg" alt="Jean">
-                    <p class="articulo-parrafo">Jean Love</p>
-                    <p>$1000</p>
-                    <button type="button" class="btn btn-dark">Añardir a carrito</button>
-
-                </div>
-                <div class="articulo">
-                    <img class="articulo-imagen" src="./imagenes/campera.jpeg" alt="campera">
-                    <p>Campera Sweet</p>
-                    <p>$1500</p>
-                    <button type="button" class="btn btn-dark">Añardir a carrito</button>
-                </div>
-            </div>
-        </section>
+        
     </main>
 
     <footer class="footer bg-danger">
-        <div class="footer--redes">
-          <a href="https://www.facebook.com/pg/Lo-de-Santana-Carpinteria-169292303719108/posts/"><i class="bi bi-facebook"></i></a>
-          <a href=""></a><i class="bi bi-instagram"></i></a>
-          <a href=""></a><i class="bi bi-whatsapp"></i></a>
-          <a href=""></a><i class="bi bi-pinterest"></i></a>
+      <div class="subscripcion bg-light">
+        <div class="sub">
+          <h6>SUSCRIBIRSE A NUESTRO BOLETÍN</h6>
+          <p>Obtenga las últimas actualizaciones sobre nuevos productos y próximas ofertas</p>
         </div>
+        <div class="correo">
+          <input type="email" id="usuario" class="form-input" placeholder="Escriba su email">
+          <button id="suscribite"><img src="./imagenes/flechas-a-la-derecha.png" alt="flechas-a-la-derecha"></button>
+        </div>
+      </div>
+      <div class="footer--redes">
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""></a><i class="bi bi-instagram"></i></a>
+        <a href=""></a><i class="bi bi-whatsapp"></i></a>
+        <a href=""></a><i class="bi bi-pinterest"></i></a>
+      </div>
+      
+      <div class="footer--datos ">
+        <p>Las Piedras-Canelones</p>
+        <p>Ibiray n101</p>
+        <p>095412541</p>
+      </div>
+
         
-        <div class="footer--datos ">
-          <p>Las Piedras-Canelones</p>
-          <p>Ibiray n101</p>
-          <p>095412541</p>
-        </div>
     </footer>   
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

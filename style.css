@@ -71,39 +71,29 @@
     height: 300px;
 }
 
-
 @media only screen and (max-width:600px){
     .main{
-        height: 3300px;
+        height: 2900px;
     }
     .portada{
         
         background-image: url(./imagenes/potadamovile.png);
         background-size: cover;
     }
+    .section-menu{
+        text-align: center;
+    }
     .section-p{
         font-size: 15px;
     }
-    .section-menu{
-        height: 2700px;
-        
+    .footer{
+        height: 500px;
     }
-    .productos{
-        height: 2500px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 30px;
+    .subscripcion{
+        height: 200px;;
         text-align: center;
     }
-    .articulo{
-        height: 600px;
-        
-    }
-    .articulo-imagen{
-        height: 400px;
-    }
+   
 }
 @media only screen and (min-width:600px){
     .portada{
@@ -114,7 +104,8 @@
         font-size: 40px;
     }
     .section-menu{
-        height: 800px;
+        height: 700px;
+        text-align: center;
     }
     .productos{
         height: 700px;
@@ -127,5 +118,19 @@
     .articulo{
          height: 450px;
         width: 22%;
+    }
+    .footer{
+        height: 500px;
+    }
+    .subscripcion{
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        text-align: center;
+    }
+    .sub{
+        width: 300px;
     }
 }
